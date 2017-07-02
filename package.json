@@ -1,0 +1,19 @@
+{
+  "name": "jcpenneyrewards",
+  "version": "1.0.0",
+  "description": "JcPenney Rewards Program Demo Coded by Carine Todmia",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctodmia/jcpenneyrewards.git"
+  },
+  "author": "Carine Todmia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctodmia/jcpenneyrewards/issues"
+  },
+  "homepage": "https://github.com/ctodmia/jcpenneyrewards#readme"
+}
