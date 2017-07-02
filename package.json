@@ -2,7 +2,7 @@
   "name": "jcpenneyrewards",
   "version": "1.0.0",
   "description": "JcPenney Rewards Program Demo Coded by Carine Todmia",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ctodmia/jcpenneyrewards/issues"
   },
-  "homepage": "https://github.com/ctodmia/jcpenneyrewards#readme"
+  "homepage": "https://github.com/ctodmia/jcpenneyrewards#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
 }
