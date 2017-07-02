@@ -1,15 +1,20 @@
 {
   "name": "jcpenneyrewards",
   "version": "1.0.0",
-  "description": "JcPenney Rewards Program Demo Coded by Carine Todmia",
-  "main": "index.html",
+  "description": "JcPenney Reward Program Demo",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ctodmia/jcpenneyrewards.git"
   },
+  "keywords": [
+    "angular",
+    "javascript"
+  ],
   "author": "Carine Todmia",
   "license": "ISC",
   "bugs": {
@@ -17,9 +22,8 @@
   },
   "homepage": "https://github.com/ctodmia/jcpenneyrewards#readme",
   "dependencies": {
-    "express": "^4.15.3"
-  },
-  "engines": {
-    "node": "4.1.1"
-  },
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
 }
